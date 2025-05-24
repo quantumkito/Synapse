@@ -123,7 +123,7 @@ async def check_and_forget():
 
 @bot.event
 async def on_ready():
-    print(f'ThunderAI Logged in as {bot.user}')
+    print(f'Synapse Logged in as {bot.user}')
     print("Bot is Created by Kito")
     print(f'Bot is ready to use')
     check_and_forget.start()
